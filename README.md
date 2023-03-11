@@ -31,8 +31,10 @@ We need to set a research goal which we have to achieve from the dataset given t
 DATA CLEANING : 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Now, we've got a basic understanding of our dataset. Next we'll review our dataset and do the cleaning and transformation part. Some of the issues encountered by me are mentioned below:
+
 -- In csat score column a number of entries are NULL, but it isn't mandatory to change it since we've sentiment column which we can use if we need to perform sentiment analysis. 
 -- Next, in call timestamp dates are stored in two formats (mm - dd - yyyy) and (mm / dd / yyyy) format. Due to this excel don't directly convert all the entries in date format which is required. To resolve this, we need to select the column and then follow these steps ( data > text to columns > Date : MDY > Finish).
+
 -- In next steps we'll convert the required columns in number format e.g. csat_score and call duration in minutes.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 DATA ANALYSIS : 
